@@ -1,0 +1,5 @@
+users.json
+bets.json
+data/
+.env
+.session-secret

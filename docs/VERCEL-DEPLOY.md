@@ -47,10 +47,13 @@ Click **Deploy**. Your site will be at `https://your-project.vercel.app`.
 
 ## 6. Verify
 
-1. Open your Vercel URL.
-2. Register / sign in.
-3. Place a test bet.
-4. Atlas → **Browse Collections** → `agsv` → confirm new data.
+1. Open `https://your-project.vercel.app/api/health` — should show:
+   ```json
+   { "ok": true, "sessionSecret": true, "mongodbUri": true }
+   ```
+   If `ok` is false, fix the missing env vars in Vercel and redeploy.
+2. Open your Vercel URL → register / sign in → place a test bet.
+3. Atlas → **Browse Collections** → `agsv` → confirm new data.
 
 ## Local vs Vercel
 
