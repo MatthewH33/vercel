@@ -1,8 +1,12 @@
 {
   "framework": null,
   "functions": {
-    "api/**/*.js": {
+    "api/*.js": {
       "maxDuration": 30
     }
-  }
+  },
+  "routes": [
+    { "src": "/api/health", "dest": "/api/health.js" },
+    { "src": "/api/(.*)", "dest": "/api/index.js?path=$1" }
+  ]
 }

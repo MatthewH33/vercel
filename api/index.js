@@ -10,9 +10,9 @@ function sendError(res, status, message) {
 
 function ensureApiPath(req) {
   if (req.url && req.url.startsWith("/api/")) return;
-  const pathParam = req.query?.path;
-  if (!pathParam) return;
-  const segments = Array.isArray(pathParam) ? pathParam : [pathParam];
+  const rawPath = req.query?.path;
+  if (!rawPath) return;
+  const segments = Array.isArray(rawPath) ? rawPath : [rawPath];
   const qs = req.url?.includes("?") ? req.url.slice(req.url.indexOf("?")) : "";
   req.url = `/api/${segments.join("/")}${qs}`;
 }
