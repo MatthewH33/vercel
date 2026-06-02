@@ -1,0 +1,12 @@
+{
+  "functions": {
+    "api/[...path].js": {
+      "maxDuration": 30
+    }
+  },
+  "routes": [
+    { "src": "/users\\.json", "status": 404 },
+    { "src": "/bets\\.json", "status": 404 },
+    { "src": "/data/(.*)", "status": 404 }
+  ]
+}

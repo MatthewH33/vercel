@@ -1,0 +1,26 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "passwordHash": "6cdd31f032eac23d51ac61909dfc6a78:a230d0cdb9237757b074a06c579aeeca0a207cc02b7021f668de807a589a20495e43f91a39a4c48762c463f8fbcdef83c53e046d6745f77b8b747beb2b89a821",
+      "schoolId": "test",
+      "isAdmin": true,
+      "credits": 1,
+      "createdAt": "2026-06-02T06:56:43.785Z"
+    },
+    {
+      "username": "test",
+      "passwordHash": "85318b3d5ae5a995225ce0c6e8cfb8db:5275d87f5dd26072996a239e8afd09596b2c834bf2bad5986c651e1756fa5c4b2e18cd2be6b9e15d36358a01d147333e8262d61c7e4c4d228a50f62f528382ba",
+      "schoolId": "test",
+      "credits": 1,
+      "createdAt": "2026-06-02T10:32:46.512Z"
+    },
+    {
+      "username": "mick",
+      "passwordHash": "b928ba0caf5a114f233bd31a8faf6abe:cd9e959b4432eca2b04744cd820825b4cb0ad2287a8b243515979cceb49892f3a6eabbfe6407ac95fdb4d2e6ce5c7b512e2b7f0f6cf14a5374124d2e5928a45a",
+      "schoolId": "pegs",
+      "credits": 954,
+      "createdAt": "2026-06-02T11:04:57.908Z"
+    }
+  ]
+}

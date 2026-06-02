@@ -1,0 +1,619 @@
+{
+  "id": "soccer",
+  "name": "Soccer",
+  "label": "Football / Soccer — Firsts",
+  "currentRound": 6,
+  "bettingRound": 6,
+  "rounds": {
+    "1": {
+      "round": 1,
+      "matches": [
+        {
+          "id": "sc-r1-trinity-pegs",
+          "homeSchoolId": "trinity",
+          "awaySchoolId": "pegs",
+          "competition": "Soccer - Firsts, Open B and Year level A",
+          "datetime": "2026-01-01T12:00:00+10:00",
+          "displayTime": "5:45pm, Thu, 1 May 26",
+          "dayLabel": "Thursday, 1 May 2026",
+          "venue": "Home of the Matildas - Pitch 5 (Turf), La Trobe Sports Park, Plenty Rd, Bundoora VIC 3086",
+          "status": "final",
+          "bettingOpen": false,
+          "line": null,
+          "result": {
+            "homeScore": 0,
+            "awayScore": 5,
+            "homeScoreDisplay": "0",
+            "awayScoreDisplay": "5",
+            "winnerId": "pegs",
+            "margin": 5,
+            "summary": "Penleigh & Essendon Grammar School (PEGS) wins (0–5)"
+          }
+        },
+        {
+          "id": "sc-r1-mentone-camberwell",
+          "homeSchoolId": "mentone",
+          "awaySchoolId": "camberwell",
+          "competition": "Soccer - Firsts, Open B and Year level A",
+          "datetime": "2026-01-01T12:00:00+10:00",
+          "displayTime": "5:45pm, Thu, 1 May 26",
+          "dayLabel": "Thursday, 1 May 2026",
+          "venue": "Home of the Matildas - Pitch 2 (Syn), La Trobe Sports Park, Plenty Rd, Bundoora VIC 3086",
+          "status": "final",
+          "bettingOpen": false,
+          "line": null,
+          "result": {
+            "homeScore": 1,
+            "awayScore": 1,
+            "homeScoreDisplay": "1",
+            "awayScoreDisplay": "1",
+            "winnerId": null,
+            "margin": 0,
+            "summary": "Draw (1–1)"
+          }
+        },
+        {
+          "id": "sc-r1-marcellin-yarra",
+          "homeSchoolId": "marcellin",
+          "awaySchoolId": "yarra-valley",
+          "competition": "Soccer - Firsts, Open B and Year level A",
+          "datetime": "2026-01-01T12:00:00+10:00",
+          "displayTime": "5:45pm, Thu, 1 May 26",
+          "dayLabel": "Thursday, 1 May 2026",
+          "venue": "Home of the Matildas - Pitch 3 (Syn), La Trobe Sports Park, Plenty Rd, Bundoora VIC 3086",
+          "status": "final",
+          "bettingOpen": false,
+          "line": null,
+          "result": {
+            "homeScore": 2,
+            "awayScore": 0,
+            "homeScoreDisplay": "2",
+            "awayScoreDisplay": "0",
+            "winnerId": "marcellin",
+            "margin": 2,
+            "summary": "Marcellin College wins (2–0)"
+          }
+        },
+        {
+          "id": "sc-r1-peninsula-ivanhoe",
+          "homeSchoolId": "peninsula",
+          "awaySchoolId": "ivanhoe",
+          "competition": "Soccer - Firsts, Open B and Year level A",
+          "datetime": "2026-01-01T12:00:00+10:00",
+          "displayTime": "5:45pm, Thu, 1 May 26",
+          "dayLabel": "Thursday, 1 May 2026",
+          "venue": "Home of the Matildas - Pitch 4 (Syn), La Trobe Sports Park, Plenty Rd, Bundoora VIC 3086",
+          "status": "final",
+          "bettingOpen": false,
+          "line": null,
+          "result": {
+            "homeScore": 1,
+            "awayScore": 2,
+            "homeScoreDisplay": "1",
+            "awayScoreDisplay": "2",
+            "winnerId": "ivanhoe",
+            "margin": 1,
+            "summary": "Ivanhoe Grammar School wins (1–2)"
+          }
+        }
+      ],
+      "byes": []
+    },
+    "2": {
+      "round": 2,
+      "matches": [
+        {
+          "id": "sc-r2-ivanhoe-trinity",
+          "homeSchoolId": "ivanhoe",
+          "awaySchoolId": "trinity",
+          "competition": "Soccer - Firsts, Open B and Year level A",
+          "datetime": "2026-01-01T12:00:00+10:00",
+          "displayTime": "2:30pm, Fri, 8 May 26",
+          "dayLabel": "Friday, 8 May 2026",
+          "venue": "La Trobe Sports Park, Plenty Rd, Bundoora VIC 3086",
+          "status": "final",
+          "bettingOpen": false,
+          "line": null,
+          "result": {
+            "homeScore": 2,
+            "awayScore": 1,
+            "homeScoreDisplay": "2",
+            "awayScoreDisplay": "1",
+            "winnerId": "ivanhoe",
+            "margin": 1,
+            "summary": "Ivanhoe Grammar School wins (2–1)"
+          }
+        },
+        {
+          "id": "sc-r2-peninsula-mentone",
+          "homeSchoolId": "peninsula",
+          "awaySchoolId": "mentone",
+          "competition": "Soccer - Firsts, Open B and Year level A",
+          "datetime": "2026-01-01T12:00:00+10:00",
+          "displayTime": "4:00pm, Fri, 8 May 26",
+          "dayLabel": "Friday, 8 May 2026",
+          "venue": "PEN - Brennan Oval, 20 Wooralla Dr, Mount Eliza VIC 3930",
+          "status": "final",
+          "bettingOpen": false,
+          "line": null,
+          "result": {
+            "homeScore": 2,
+            "awayScore": 2,
+            "homeScoreDisplay": "2",
+            "awayScoreDisplay": "2",
+            "winnerId": null,
+            "margin": 0,
+            "summary": "Draw (2–2)"
+          }
+        },
+        {
+          "id": "sc-r2-camberwell-yarra",
+          "homeSchoolId": "camberwell",
+          "awaySchoolId": "yarra-valley",
+          "competition": "Soccer - Firsts, Open B and Year level A",
+          "datetime": "2026-01-01T12:00:00+10:00",
+          "displayTime": "10:00am, Sat, 9 May 26",
+          "dayLabel": "Saturday, 9 May 2026",
+          "venue": "CAMB - Keith Anderson Oval, 55 Mont Albert Rd, Canterbury VIC 3126",
+          "status": "final",
+          "bettingOpen": false,
+          "line": null,
+          "result": {
+            "homeScore": 5,
+            "awayScore": 0,
+            "homeScoreDisplay": "5",
+            "awayScoreDisplay": "0",
+            "winnerId": "camberwell",
+            "margin": 5,
+            "summary": "Camberwell Grammar School wins (5–0)"
+          }
+        },
+        {
+          "id": "sc-r2-pegs-marcellin",
+          "homeSchoolId": "pegs",
+          "awaySchoolId": "marcellin",
+          "competition": "Soccer - Firsts, Open B and Year level A",
+          "datetime": "2026-01-01T12:00:00+10:00",
+          "displayTime": "10:30am, Sat, 9 May 26",
+          "dayLabel": "Saturday, 9 May 2026",
+          "venue": "PEGS Keilor Park - Pitch 1, 127 Wright Rd, Keilor Park",
+          "status": "final",
+          "bettingOpen": false,
+          "line": null,
+          "result": {
+            "homeScore": 4,
+            "awayScore": 2,
+            "homeScoreDisplay": "4",
+            "awayScoreDisplay": "2",
+            "winnerId": "pegs",
+            "margin": 2,
+            "summary": "Penleigh & Essendon Grammar School (PEGS) wins (4–2)"
+          }
+        }
+      ],
+      "byes": []
+    },
+    "3": {
+      "round": 3,
+      "matches": [
+        {
+          "id": "sc-r3-ivanhoe-camberwell",
+          "homeSchoolId": "ivanhoe",
+          "awaySchoolId": "camberwell",
+          "competition": "Soccer - Firsts, Open B and Year level A",
+          "datetime": "2026-01-01T12:00:00+10:00",
+          "displayTime": "2:30pm, Fri, 15 May 26",
+          "dayLabel": "Friday, 15 May 2026",
+          "venue": "Veneto Club, 191 Bulleen Rd, Bulleen VIC 3105",
+          "status": "final",
+          "bettingOpen": false,
+          "line": null,
+          "result": {
+            "homeScore": 3,
+            "awayScore": 0,
+            "homeScoreDisplay": "3",
+            "awayScoreDisplay": "0",
+            "winnerId": "ivanhoe",
+            "margin": 3,
+            "summary": "Ivanhoe Grammar School wins (3–0)"
+          }
+        },
+        {
+          "id": "sc-r3-trinity-peninsula",
+          "homeSchoolId": "trinity",
+          "awaySchoolId": "peninsula",
+          "competition": "Soccer - Firsts, Open B and Year level A",
+          "datetime": "2026-01-01T12:00:00+10:00",
+          "displayTime": "5:00pm, Fri, 15 May 26",
+          "dayLabel": "Friday, 15 May 2026",
+          "venue": "TRIN - Hudson Oval, 162-168 Bulleen Rd, Bulleen VIC 3105",
+          "status": "final",
+          "bettingOpen": false,
+          "line": null,
+          "result": {
+            "homeScore": 3,
+            "awayScore": 1,
+            "homeScoreDisplay": "3",
+            "awayScoreDisplay": "1",
+            "winnerId": "trinity",
+            "margin": 2,
+            "summary": "Trinity Grammar School wins (3–1)"
+          }
+        },
+        {
+          "id": "sc-r3-mentone-marcellin",
+          "homeSchoolId": "mentone",
+          "awaySchoolId": "marcellin",
+          "competition": "Soccer - Firsts, Open B and Year level A",
+          "datetime": "2026-01-01T12:00:00+10:00",
+          "displayTime": "9:30am, Sat, 16 May 26",
+          "dayLabel": "Saturday, 16 May 2026",
+          "venue": "MENT - Campus Oval, 63 Venice St, Mentone VIC 3194",
+          "status": "final",
+          "bettingOpen": false,
+          "line": null,
+          "result": {
+            "homeScore": 1,
+            "awayScore": 1,
+            "homeScoreDisplay": "1",
+            "awayScoreDisplay": "1",
+            "winnerId": null,
+            "margin": 0,
+            "summary": "Draw (1–1)"
+          }
+        },
+        {
+          "id": "sc-r3-yarra-pegs",
+          "homeSchoolId": "yarra-valley",
+          "awaySchoolId": "pegs",
+          "competition": "Soccer - Firsts, Open B and Year level A",
+          "datetime": "2026-01-01T12:00:00+10:00",
+          "displayTime": "10:00am, Sat, 16 May 26",
+          "dayLabel": "Saturday, 16 May 2026",
+          "venue": "YVG - Pitch 1, Kalinda Rd, Ringwood VIC 3134",
+          "status": "final",
+          "bettingOpen": false,
+          "line": null,
+          "result": {
+            "homeScore": 0,
+            "awayScore": 6,
+            "homeScoreDisplay": "0",
+            "awayScoreDisplay": "6",
+            "winnerId": "pegs",
+            "margin": 6,
+            "summary": "Penleigh & Essendon Grammar School (PEGS) wins (0–6)"
+          }
+        }
+      ],
+      "byes": []
+    },
+    "4": {
+      "round": 4,
+      "matches": [
+        {
+          "id": "sc-r4-marcellin-trinity",
+          "homeSchoolId": "marcellin",
+          "awaySchoolId": "trinity",
+          "competition": "Soccer - Firsts, Open B and Year level A",
+          "datetime": "2026-01-01T12:00:00+10:00",
+          "displayTime": "5:00pm, Fri, 22 May 26",
+          "dayLabel": "Friday, 22 May 2026",
+          "venue": "MARC - Gartner Fields - Pitch 1, 160 Bulleen Rd, Bulleen VIC 3105",
+          "status": "final",
+          "bettingOpen": false,
+          "line": null,
+          "result": {
+            "homeScore": 2,
+            "awayScore": 2,
+            "homeScoreDisplay": "2",
+            "awayScoreDisplay": "2",
+            "winnerId": null,
+            "margin": 0,
+            "summary": "Draw (2–2)"
+          }
+        },
+        {
+          "id": "sc-r4-camberwell-peninsula",
+          "homeSchoolId": "camberwell",
+          "awaySchoolId": "peninsula",
+          "competition": "Soccer - Firsts, Open B and Year level A",
+          "datetime": "2026-01-01T12:00:00+10:00",
+          "displayTime": "10:00am, Sat, 23 May 26",
+          "dayLabel": "Saturday, 23 May 2026",
+          "venue": "CAMB - Keith Anderson Oval, 55 Mont Albert Rd, Canterbury VIC 3126",
+          "status": "final",
+          "bettingOpen": false,
+          "line": null,
+          "result": {
+            "homeScore": 4,
+            "awayScore": 2,
+            "homeScoreDisplay": "4",
+            "awayScoreDisplay": "2",
+            "winnerId": "camberwell",
+            "margin": 2,
+            "summary": "Camberwell Grammar School wins (4–2)"
+          }
+        },
+        {
+          "id": "sc-r4-yarra-ivanhoe",
+          "homeSchoolId": "yarra-valley",
+          "awaySchoolId": "ivanhoe",
+          "competition": "Soccer - Firsts, Open B and Year level A",
+          "datetime": "2026-01-01T12:00:00+10:00",
+          "displayTime": "10:00am, Sat, 23 May 26",
+          "dayLabel": "Saturday, 23 May 2026",
+          "venue": "YVG - Pitch 1, Kalinda Rd, Ringwood VIC 3134",
+          "status": "final",
+          "bettingOpen": false,
+          "line": null,
+          "result": {
+            "homeScore": 2,
+            "awayScore": 7,
+            "homeScoreDisplay": "2",
+            "awayScoreDisplay": "7",
+            "winnerId": "ivanhoe",
+            "margin": 5,
+            "summary": "Ivanhoe Grammar School wins (2–7)"
+          }
+        },
+        {
+          "id": "sc-r4-pegs-mentone",
+          "homeSchoolId": "pegs",
+          "awaySchoolId": "mentone",
+          "competition": "Soccer - Firsts, Open B and Year level A",
+          "datetime": "2026-01-01T12:00:00+10:00",
+          "displayTime": "10:30am, Sat, 23 May 26",
+          "dayLabel": "Saturday, 23 May 2026",
+          "venue": "PEGS Keilor Park - Pitch 1, 127 Wright Rd, Keilor Park",
+          "status": "final",
+          "bettingOpen": false,
+          "line": null,
+          "result": {
+            "homeScore": 3,
+            "awayScore": 1,
+            "homeScoreDisplay": "3",
+            "awayScoreDisplay": "1",
+            "winnerId": "pegs",
+            "margin": 2,
+            "summary": "Penleigh & Essendon Grammar School (PEGS) wins (3–1)"
+          }
+        }
+      ],
+      "byes": []
+    },
+    "5": {
+      "round": 5,
+      "matches": [
+        {
+          "id": "sc-r5-ivanhoe-pegs",
+          "homeSchoolId": "ivanhoe",
+          "awaySchoolId": "pegs",
+          "competition": "Soccer - Firsts, Open B and Year level A",
+          "datetime": "2026-01-01T12:00:00+10:00",
+          "displayTime": "2:30pm, Fri, 29 May 26",
+          "dayLabel": "Friday, 29 May 2026",
+          "venue": "Veneto Club, 191 Bulleen Rd, Bulleen VIC 3105",
+          "status": "final",
+          "bettingOpen": false,
+          "line": null,
+          "result": {
+            "homeScore": 4,
+            "awayScore": 2,
+            "homeScoreDisplay": "4",
+            "awayScoreDisplay": "2",
+            "winnerId": "ivanhoe",
+            "margin": 2,
+            "summary": "Ivanhoe Grammar School wins (4–2)"
+          }
+        },
+        {
+          "id": "sc-r5-camberwell-marcellin",
+          "homeSchoolId": "camberwell",
+          "awaySchoolId": "marcellin",
+          "competition": "Soccer - Firsts, Open B and Year level A",
+          "datetime": "2026-01-01T12:00:00+10:00",
+          "displayTime": "3:00pm, Fri, 29 May 26",
+          "dayLabel": "Friday, 29 May 2026",
+          "venue": "CAMB - Keith Anderson Oval, 55 Mont Albert Rd, Canterbury VIC 3126",
+          "status": "final",
+          "bettingOpen": false,
+          "line": null,
+          "result": {
+            "homeScore": 3,
+            "awayScore": 1,
+            "homeScoreDisplay": "3",
+            "awayScoreDisplay": "1",
+            "winnerId": "camberwell",
+            "margin": 2,
+            "summary": "Camberwell Grammar School wins (3–1)"
+          }
+        },
+        {
+          "id": "sc-r5-peninsula-yarra",
+          "homeSchoolId": "peninsula",
+          "awaySchoolId": "yarra-valley",
+          "competition": "Soccer - Firsts, Open B and Year level A",
+          "datetime": "2026-01-01T12:00:00+10:00",
+          "displayTime": "9:30am, Sat, 30 May 26",
+          "dayLabel": "Saturday, 30 May 2026",
+          "venue": "PEN - Brennan Oval, 20 Wooralla Dr, Mount Eliza VIC 3930",
+          "status": "final",
+          "bettingOpen": false,
+          "line": null,
+          "result": {
+            "homeScore": 2,
+            "awayScore": 0,
+            "homeScoreDisplay": "2",
+            "awayScoreDisplay": "0",
+            "winnerId": "peninsula",
+            "margin": 2,
+            "summary": "Peninsula Grammar wins (2–0)"
+          }
+        },
+        {
+          "id": "sc-r5-trinity-mentone",
+          "homeSchoolId": "trinity",
+          "awaySchoolId": "mentone",
+          "competition": "Soccer - Firsts, Open B and Year level A",
+          "datetime": "2026-01-01T12:00:00+10:00",
+          "displayTime": "10:00am, Sat, 30 May 26",
+          "dayLabel": "Saturday, 30 May 2026",
+          "venue": "TRIN - Price 1 (Bulleen), 162-168 Bulleen Rd, Bulleen VIC 3105",
+          "status": "final",
+          "bettingOpen": false,
+          "line": null,
+          "result": {
+            "homeScore": 6,
+            "awayScore": 3,
+            "homeScoreDisplay": "6",
+            "awayScoreDisplay": "3",
+            "winnerId": "trinity",
+            "margin": 3,
+            "summary": "Trinity Grammar School wins (6–3)"
+          }
+        }
+      ],
+      "byes": []
+    },
+    "6": {
+      "round": 6,
+      "matches": [
+        {
+          "id": "sc-r6-mentone-ivanhoe",
+          "homeSchoolId": "mentone",
+          "awaySchoolId": "ivanhoe",
+          "competition": "Soccer - Firsts, Open B and Year level A",
+          "datetime": "2026-01-01T12:00:00+10:00",
+          "displayTime": "3:00pm, Fri, 12 Jun 26",
+          "dayLabel": "Friday, 12 June 2026",
+          "venue": "MENT - Campus Oval, 63 Venice St, Mentone VIC 3194",
+          "status": "upcoming",
+          "bettingOpen": false,
+          "line": {
+            "home": 0.5
+          },
+          "result": null
+        },
+        {
+          "id": "sc-r6-marcellin-peninsula",
+          "homeSchoolId": "marcellin",
+          "awaySchoolId": "peninsula",
+          "competition": "Soccer - Firsts, Open B and Year level A",
+          "datetime": "2026-01-01T12:00:00+10:00",
+          "displayTime": "4:30pm, Fri, 12 Jun 26",
+          "dayLabel": "Friday, 12 June 2026",
+          "venue": "MARC - Gartner Fields - Pitch 1, 160 Bulleen Rd, Bulleen VIC 3105",
+          "status": "upcoming",
+          "bettingOpen": true,
+          "line": {
+            "home": -0.5
+          },
+          "result": null
+        },
+        {
+          "id": "sc-r6-trinity-yarra",
+          "homeSchoolId": "trinity",
+          "awaySchoolId": "yarra-valley",
+          "competition": "Soccer - Firsts, Open B and Year level A",
+          "datetime": "2026-01-01T12:00:00+10:00",
+          "displayTime": "10:00am, Sat, 13 Jun 26",
+          "dayLabel": "Saturday, 13 June 2026",
+          "venue": "TRIN - Price 1 (Bulleen), 162-168 Bulleen Rd, Bulleen VIC 3105",
+          "status": "upcoming",
+          "bettingOpen": true,
+          "line": {
+            "home": -1.5
+          },
+          "result": null
+        },
+        {
+          "id": "sc-r6-pegs-camberwell",
+          "homeSchoolId": "pegs",
+          "awaySchoolId": "camberwell",
+          "competition": "Soccer - Firsts, Open B and Year level A",
+          "datetime": "2026-01-01T12:00:00+10:00",
+          "displayTime": "10:30am, Sat, 13 Jun 26",
+          "dayLabel": "Saturday, 13 June 2026",
+          "venue": "PEGS Keilor Park - Pitch 1, 127 Wright Rd, Keilor Park",
+          "status": "upcoming",
+          "bettingOpen": true,
+          "line": {
+            "home": -0.5
+          },
+          "result": null
+        }
+      ],
+      "byes": []
+    },
+    "7": {
+      "round": 7,
+      "matches": [
+        {
+          "id": "sc-r7-ivanhoe-marcellin",
+          "homeSchoolId": "ivanhoe",
+          "awaySchoolId": "marcellin",
+          "competition": "Soccer - Firsts, Open B and Year level A",
+          "datetime": "2026-01-01T12:00:00+10:00",
+          "displayTime": "2:30pm, Fri, 17 Jul 26",
+          "dayLabel": "Friday, 17 July 2026",
+          "venue": "La Trobe Sports Park, Plenty Rd, Bundoora VIC 3086",
+          "status": "upcoming",
+          "bettingOpen": false,
+          "line": {
+            "home": -1.5
+          },
+          "result": null
+        },
+        {
+          "id": "sc-r7-camberwell-trinity",
+          "homeSchoolId": "camberwell",
+          "awaySchoolId": "trinity",
+          "competition": "Soccer - Firsts, Open B and Year level A",
+          "datetime": "2026-01-01T12:00:00+10:00",
+          "displayTime": "3:00pm, Fri, 17 Jul 26",
+          "dayLabel": "Friday, 17 July 2026",
+          "venue": "CAMB - Keith Anderson Oval, 55 Mont Albert Rd, Canterbury VIC 3126",
+          "status": "upcoming",
+          "bettingOpen": false,
+          "line": {
+            "home": 0.5
+          },
+          "result": null
+        },
+        {
+          "id": "sc-r7-yarra-mentone",
+          "homeSchoolId": "yarra-valley",
+          "awaySchoolId": "mentone",
+          "competition": "Soccer - Firsts, Open B and Year level A",
+          "datetime": "2026-01-01T12:00:00+10:00",
+          "displayTime": "10:00am, Sat, 18 Jul 26",
+          "dayLabel": "Saturday, 18 July 2026",
+          "venue": "YVG - Pitch 1, Kalinda Rd, Ringwood VIC 3134",
+          "status": "upcoming",
+          "bettingOpen": false,
+          "line": {
+            "home": 1.5
+          },
+          "result": null
+        },
+        {
+          "id": "sc-r7-pegs-peninsula",
+          "homeSchoolId": "pegs",
+          "awaySchoolId": "peninsula",
+          "competition": "Soccer - Firsts, Open B and Year level A",
+          "datetime": "2026-01-01T12:00:00+10:00",
+          "displayTime": "10:00am, Sat, 18 Jul 26",
+          "dayLabel": "Saturday, 18 July 2026",
+          "venue": "PEGS Keilor Park - Pitch 1, 127 Wright Rd, Keilor Park",
+          "status": "upcoming",
+          "bettingOpen": false,
+          "line": {
+            "home": -1.5
+          },
+          "result": null
+        }
+      ],
+      "byes": []
+    }
+  }
+}

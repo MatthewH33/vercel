@@ -1,0 +1,34 @@
+{
+  "bets": [
+    {
+      "id": "b1d58e36711d06d2",
+      "username": "mick",
+      "matchId": "r7-mentone-marcellin",
+      "type": "winner",
+      "selection": {
+        "teamId": "marcellin"
+      },
+      "stake": 21,
+      "odds": 1.45,
+      "status": "lost",
+      "payout": 0,
+      "placedAt": "2026-06-02T11:05:42.094Z",
+      "settledAt": "2026-06-02T11:50:44.590Z"
+    },
+    {
+      "id": "42dc0764ec0b450f",
+      "username": "mick",
+      "matchId": "r7-mentone-marcellin",
+      "type": "winner",
+      "selection": {
+        "teamId": "marcellin"
+      },
+      "stake": 25,
+      "odds": 1.45,
+      "status": "lost",
+      "payout": 0,
+      "placedAt": "2026-06-02T11:05:46.338Z",
+      "settledAt": "2026-06-02T11:50:44.590Z"
+    }
+  ]
+}

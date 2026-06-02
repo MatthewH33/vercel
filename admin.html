@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#0a0a0a" />
+  <title>Admin — AGSV Fantasy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="page-admin">
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-circle" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a href="/" class="brand">AGSV Fantasy</a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="/">Home</a>
+      <a href="/markets.html">Markets</a>
+      <a href="/leaderboard.html">Leaderboard</a>
+      <a href="/profile.html">Profile</a>
+      <a href="/admin.html" class="nav-active" id="nav-admin">Admin</a>
+    </nav>
+    <div class="header-auth">
+      <div id="user-pill" class="user-pill" hidden></div>
+      <div class="credits-pill" id="credits-pill" hidden title="Play-money balance">
+        <span class="credits-label">Balance</span>
+        <span class="credits-value" id="credits-display">—</span>
+        <span class="credits-unit">credits</span>
+      </div>
+      <div id="auth-actions" class="auth-actions">
+        <a href="/signin.html" class="btn btn-ghost btn-sm">Sign in</a>
+        <a href="/register.html" class="btn btn-ghost btn-sm">Register</a>
+      </div>
+      <a href="#" id="logout-btn" class="btn btn-ghost btn-sm" hidden role="button">Sign out</a>
+    </div>
+  </header>
+
+  <main class="admin-page">
+    <div id="admin-denied" class="profile-guest" hidden>
+      <h1 class="page-title">Admin</h1>
+      <p class="page-lead" id="admin-denied-msg">Admin access only. Sign in with an admin account.</p>
+      <a href="/signin.html" class="btn btn-primary">Sign in</a>
+    </div>
+
+    <div id="admin-content" hidden>
+      <header class="admin-dash-head">
+        <div>
+          <h1 class="page-title">Admin dashboard</h1>
+          <p class="page-lead" id="admin-welcome">Site overview and result entry.</p>
+        </div>
+        <div class="admin-quick-links">
+          <a href="/leaderboard.html" class="btn btn-ghost btn-sm">Leaderboard</a>
+          <a href="/markets.html" class="btn btn-ghost btn-sm">Markets</a>
+        </div>
+      </header>
+
+      <nav class="admin-tabs" aria-label="Admin sections">
+        <button type="button" class="admin-tab admin-tab-active" data-tab="overview" id="admin-tab-overview">
+          Overview
+        </button>
+        <button type="button" class="admin-tab" data-tab="results" id="admin-tab-results">
+          Enter results
+        </button>
+      </nav>
+
+      <section id="admin-panel-overview" class="admin-panel" aria-labelledby="admin-tab-overview">
+        <div id="admin-alerts" class="admin-alerts" hidden></div>
+
+        <section class="stats-grid admin-dash-stats" aria-label="Site totals">
+          <article class="stat-card">
+            <span class="stat-label">Players</span>
+            <span class="stat-value" id="dash-users">—</span>
+          </article>
+          <article class="stat-card">
+            <span class="stat-label">Total bets</span>
+            <span class="stat-value" id="dash-bets">—</span>
+          </article>
+          <article class="stat-card">
+            <span class="stat-label">Pending</span>
+            <span class="stat-value" id="dash-pending">—</span>
+          </article>
+          <article class="stat-card">
+            <span class="stat-label">Won / Lost</span>
+            <span class="stat-value stat-value-sm" id="dash-record">—</span>
+          </article>
+          <article class="stat-card">
+            <span class="stat-label">At risk (pending)</span>
+            <span class="stat-value" id="dash-stake">—</span>
+          </article>
+          <article class="stat-card">
+            <span class="stat-label">Matches need result</span>
+            <span class="stat-value" id="dash-needs-result">—</span>
+          </article>
+        </section>
+
+        <section class="board-section">
+          <h2 class="section-title">Sports — betting round</h2>
+          <div id="admin-sport-cards" class="admin-sport-grid"></div>
+        </section>
+
+        <section class="board-section">
+          <div class="section-head-row">
+            <h2 class="section-title">Recent bets</h2>
+          </div>
+          <div class="table-wrap">
+            <table class="leaderboard-table admin-recent-table" id="admin-recent-table">
+              <thead>
+                <tr>
+                  <th class="col-player">Player</th>
+                  <th class="col-sport">Sport</th>
+                  <th class="col-type">Type</th>
+                  <th class="col-stake">Stake</th>
+                  <th class="col-status">Status</th>
+                  <th class="col-time">When</th>
+                </tr>
+              </thead>
+              <tbody id="admin-recent-body">
+                <tr><td colspan="6" class="empty-cell">Loading…</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+      </section>
+
+      <section id="admin-panel-results" class="admin-panel" hidden aria-labelledby="admin-tab-results">
+        <p class="page-lead" id="admin-lead">Enter match results to settle pending bets.</p>
+        <div class="sport-picker" id="admin-sport-picker" aria-label="Sport"></div>
+        <p class="admin-summary" id="admin-summary"></p>
+
+        <section class="board-section">
+          <h2 class="section-title">Needs result</h2>
+          <div id="admin-needs-result" class="admin-match-list"></div>
+        </section>
+
+        <section class="board-section">
+          <h2 class="section-title">Settled this round</h2>
+          <div id="admin-settled" class="admin-match-list"></div>
+        </section>
+      </section>
+    </div>
+  </main>
+
+  <script type="module" src="/js/admin.js"></script>
+</body>
+</html>

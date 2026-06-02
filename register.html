@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#0a0a0a" />
+  <title>Create account — AGSV Fantasy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="page-auth">
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-circle" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a href="/" class="brand">AGSV Fantasy</a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="/">Home</a>
+      <a href="/markets.html">Markets</a>
+      <a href="/leaderboard.html">Leaderboard</a>
+      <a href="/profile.html">Profile</a>
+    </nav>
+    <div id="user-pill" class="user-pill" hidden></div>
+    <div class="credits-pill" hidden>
+      <span class="credits-value" id="credits-display">1,000</span>
+    </div>
+  </header>
+
+  <main class="auth-card">
+    <h1 class="auth-title">Create free account</h1>
+    <p class="auth-lead">Pick your school and start with 1,000 credits.</p>
+
+    <form id="register-form" class="auth-form" novalidate>
+      <label class="field">
+        <span class="field-label">Username</span>
+        <input type="text" name="username" autocomplete="username" required minlength="3" maxlength="20" pattern="[a-zA-Z0-9_]+" placeholder="e.g. footy_fan_12" />
+        <span class="field-hint">3–20 characters: letters, numbers, underscore</span>
+      </label>
+
+      <label class="field">
+        <span class="field-label">Password</span>
+        <input type="password" name="password" autocomplete="new-password" required minlength="6" placeholder="At least 6 characters" />
+      </label>
+
+      <label class="field">
+        <span class="field-label">Your school</span>
+        <select name="schoolId" id="school-select" required></select>
+      </label>
+
+      <p id="form-error" class="form-error" hidden></p>
+
+      <button type="submit" class="btn btn-primary btn-full">Create account</button>
+    </form>
+
+    <p class="auth-footer">
+      Already have an account? <a href="/signin.html">Sign in</a>
+    </p>
+  </main>
+
+  <script type="module" src="/js/register.js"></script>
+</body>
+</html>

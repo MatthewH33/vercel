@@ -1,0 +1,333 @@
+{
+  "id": "badminton",
+  "name": "Badminton",
+  "label": "Badminton — Firsts / Open B",
+  "currentRound": 5,
+  "bettingRound": 5,
+  "rounds": {
+    "1": {
+      "round": 1,
+      "matches": [
+        {
+          "id": "bd-r1-camberwell-yarra",
+          "homeSchoolId": "camberwell",
+          "awaySchoolId": "yarra-valley",
+          "competition": "Badminton Firsts / Open B",
+          "datetime": "2026-01-01T08:00:00+10:00",
+          "displayTime": "8:15am, Sat, 9 May 26",
+          "dayLabel": "Saturday, 9 May 2026",
+          "venue": "Court 6, Court 7 (Melbourne Badminton Centre), 6-16 Joseph St, Blackburn North VIC 3130",
+          "status": "final",
+          "bettingOpen": false,
+          "line": null,
+          "result": {
+            "homeScore": 6,
+            "awayScore": 0,
+            "homeScoreDisplay": "6/0/230",
+            "awayScoreDisplay": "0/0/112",
+            "homeRubbers": 6,
+            "homeSets": 0,
+            "homePoints": 230,
+            "awayRubbers": 0,
+            "awaySets": 0,
+            "awayPoints": 112,
+            "winnerId": "camberwell",
+            "margin": 6,
+            "summary": "Camberwell Grammar School wins (6/0/230 – 0/0/112)"
+          }
+        },
+        {
+          "id": "bd-r1-trinity-pegs",
+          "homeSchoolId": "trinity",
+          "awaySchoolId": "pegs",
+          "competition": "Badminton Firsts / Open B",
+          "datetime": "2026-01-01T08:00:00+10:00",
+          "displayTime": "9:50am, Sat, 9 May 26",
+          "dayLabel": "Saturday, 9 May 2026",
+          "venue": "Court 6, Court 7 (Melbourne Badminton Centre), 6-16 Joseph St, Blackburn North VIC 3130",
+          "status": "final",
+          "bettingOpen": false,
+          "line": null,
+          "result": {
+            "homeScore": 6,
+            "awayScore": 0,
+            "homeScoreDisplay": "6/10/230",
+            "awayScoreDisplay": "0/0/73",
+            "homeRubbers": 6,
+            "homeSets": 10,
+            "homePoints": 230,
+            "awayRubbers": 0,
+            "awaySets": 0,
+            "awayPoints": 73,
+            "winnerId": "trinity",
+            "margin": 6,
+            "summary": "Trinity Grammar School wins (6/10/230 – 0/0/73)"
+          }
+        }
+      ],
+      "byes": []
+    },
+    "2": {
+      "round": 2,
+      "matches": [
+        {
+          "id": "bd-r2-trinity-camberwell",
+          "homeSchoolId": "trinity",
+          "awaySchoolId": "camberwell",
+          "competition": "Badminton Firsts / Open B",
+          "datetime": "2026-01-01T08:00:00+10:00",
+          "displayTime": "8:15am, Sat, 16 May 26",
+          "dayLabel": "Saturday, 16 May 2026",
+          "venue": "Court 6, Court 7 (Melbourne Badminton Centre), 6-16 Joseph St, Blackburn North VIC 3130",
+          "status": "final",
+          "bettingOpen": false,
+          "line": null,
+          "result": {
+            "homeScore": 1,
+            "awayScore": 5,
+            "homeScoreDisplay": "1/2/171",
+            "awayScoreDisplay": "5/9/239",
+            "homeRubbers": 1,
+            "homeSets": 2,
+            "homePoints": 171,
+            "awayRubbers": 5,
+            "awaySets": 9,
+            "awayPoints": 239,
+            "winnerId": "camberwell",
+            "margin": 4,
+            "summary": "Camberwell Grammar School wins (1/2/171 – 5/9/239)"
+          }
+        },
+        {
+          "id": "bd-r2-yarra-pegs",
+          "homeSchoolId": "yarra-valley",
+          "awaySchoolId": "pegs",
+          "competition": "Badminton Firsts / Open B",
+          "datetime": "2026-01-01T08:00:00+10:00",
+          "displayTime": "9:50am, Sat, 16 May 26",
+          "dayLabel": "Saturday, 16 May 2026",
+          "venue": "Court 6, Court 7 (Melbourne Badminton Centre), 6-16 Joseph St, Blackburn North VIC 3130",
+          "status": "final",
+          "bettingOpen": false,
+          "line": null,
+          "result": {
+            "homeScore": 6,
+            "awayScore": 0,
+            "homeScoreDisplay": "6/10/230",
+            "awayScoreDisplay": "0/0/58",
+            "homeRubbers": 6,
+            "homeSets": 10,
+            "homePoints": 230,
+            "awayRubbers": 0,
+            "awaySets": 0,
+            "awayPoints": 58,
+            "winnerId": "yarra-valley",
+            "margin": 6,
+            "summary": "Yarra Valley Grammar wins (6/10/230 – 0/0/58)"
+          }
+        }
+      ],
+      "byes": []
+    },
+    "3": {
+      "round": 3,
+      "matches": [
+        {
+          "id": "bd-r3-pegs-camberwell",
+          "homeSchoolId": "pegs",
+          "awaySchoolId": "camberwell",
+          "competition": "Badminton Firsts / Open B",
+          "datetime": "2026-01-01T08:00:00+10:00",
+          "displayTime": "8:15am, Sat, 23 May 26",
+          "dayLabel": "Saturday, 23 May 2026",
+          "venue": "Court 6, Court 7 (Melbourne Badminton Centre), 6-16 Joseph St, Blackburn North VIC 3130",
+          "status": "final",
+          "bettingOpen": false,
+          "line": null,
+          "result": {
+            "homeScore": 1,
+            "awayScore": 5,
+            "homeScoreDisplay": "1/2/118",
+            "awayScoreDisplay": "5/8/208",
+            "homeRubbers": 1,
+            "homeSets": 2,
+            "homePoints": 118,
+            "awayRubbers": 5,
+            "awaySets": 8,
+            "awayPoints": 208,
+            "winnerId": "camberwell",
+            "margin": 4,
+            "summary": "Camberwell Grammar School wins (1/2/118 – 5/8/208)"
+          }
+        },
+        {
+          "id": "bd-r3-yarra-trinity",
+          "homeSchoolId": "yarra-valley",
+          "awaySchoolId": "trinity",
+          "competition": "Badminton Firsts / Open B",
+          "datetime": "2026-01-01T08:00:00+10:00",
+          "displayTime": "9:50am, Sat, 23 May 26",
+          "dayLabel": "Saturday, 23 May 2026",
+          "venue": "Court 6, Court 7 (Melbourne Badminton Centre), 6-16 Joseph St, Blackburn North VIC 3130",
+          "status": "final",
+          "bettingOpen": false,
+          "line": null,
+          "result": {
+            "homeScore": 2,
+            "awayScore": 4,
+            "homeScoreDisplay": "2/5/201",
+            "awayScoreDisplay": "4/6/212",
+            "homeRubbers": 2,
+            "homeSets": 5,
+            "homePoints": 201,
+            "awayRubbers": 4,
+            "awaySets": 6,
+            "awayPoints": 212,
+            "winnerId": "trinity",
+            "margin": 2,
+            "summary": "Trinity Grammar School wins (2/5/201 – 4/6/212)"
+          }
+        }
+      ],
+      "byes": []
+    },
+    "4": {
+      "round": 4,
+      "matches": [
+        {
+          "id": "bd-r4-yarra-camberwell",
+          "homeSchoolId": "yarra-valley",
+          "awaySchoolId": "camberwell",
+          "competition": "Badminton Firsts / Open B",
+          "datetime": "2026-01-01T08:00:00+10:00",
+          "displayTime": "8:15am, Sat, 30 May 26",
+          "dayLabel": "Saturday, 30 May 2026",
+          "venue": "Court 6, Court 7 (Melbourne Badminton Centre), 6-16 Joseph St, Blackburn North VIC 3130",
+          "status": "final",
+          "bettingOpen": false,
+          "line": null,
+          "result": {
+            "homeScore": 1,
+            "awayScore": 5,
+            "homeScoreDisplay": "1/3/201",
+            "awayScoreDisplay": "5/8/228",
+            "homeRubbers": 1,
+            "homeSets": 3,
+            "homePoints": 201,
+            "awayRubbers": 5,
+            "awaySets": 8,
+            "awayPoints": 228,
+            "winnerId": "camberwell",
+            "margin": 4,
+            "summary": "Camberwell Grammar School wins (1/3/201 – 5/8/228)"
+          }
+        },
+        {
+          "id": "bd-r4-pegs-trinity",
+          "homeSchoolId": "pegs",
+          "awaySchoolId": "trinity",
+          "competition": "Badminton Firsts / Open B",
+          "datetime": "2026-01-01T08:00:00+10:00",
+          "displayTime": "9:50am, Sat, 30 May 26",
+          "dayLabel": "Saturday, 30 May 2026",
+          "venue": "Court 6, Court 7 (Melbourne Badminton Centre), 6-16 Joseph St, Blackburn North VIC 3130",
+          "status": "final",
+          "bettingOpen": false,
+          "line": null,
+          "result": {
+            "homeScore": 1,
+            "awayScore": 5,
+            "homeScoreDisplay": "1/2/121",
+            "awayScoreDisplay": "5/8/207",
+            "homeRubbers": 1,
+            "homeSets": 2,
+            "homePoints": 121,
+            "awayRubbers": 5,
+            "awaySets": 8,
+            "awayPoints": 207,
+            "winnerId": "trinity",
+            "margin": 4,
+            "summary": "Trinity Grammar School wins (1/2/121 – 5/8/207)"
+          }
+        }
+      ],
+      "byes": []
+    },
+    "5": {
+      "round": 5,
+      "matches": [
+        {
+          "id": "bd-r5-camberwell-trinity",
+          "homeSchoolId": "camberwell",
+          "awaySchoolId": "trinity",
+          "competition": "Badminton Firsts / Open B",
+          "datetime": "2026-01-01T08:00:00+10:00",
+          "displayTime": "8:15am, Sat, 13 Jun 26",
+          "dayLabel": "Saturday, 13 June 2026",
+          "venue": "Court 6, Court 7 (Melbourne Badminton Centre), 6-16 Joseph St, Blackburn North VIC 3130",
+          "status": "upcoming",
+          "bettingOpen": true,
+          "line": {
+            "home": -0.5
+          },
+          "result": null
+        },
+        {
+          "id": "bd-r5-pegs-yarra",
+          "homeSchoolId": "pegs",
+          "awaySchoolId": "yarra-valley",
+          "competition": "Badminton Firsts / Open B",
+          "datetime": "2026-01-01T08:00:00+10:00",
+          "displayTime": "9:50am, Sat, 13 Jun 26",
+          "dayLabel": "Saturday, 13 June 2026",
+          "venue": "Court 6, Court 7 (Melbourne Badminton Centre), 6-16 Joseph St, Blackburn North VIC 3130",
+          "status": "upcoming",
+          "bettingOpen": true,
+          "line": {
+            "home": 0.5
+          },
+          "result": null
+        }
+      ],
+      "byes": []
+    },
+    "6": {
+      "round": 6,
+      "matches": [
+        {
+          "id": "bd-r6-camberwell-pegs",
+          "homeSchoolId": "camberwell",
+          "awaySchoolId": "pegs",
+          "competition": "Badminton Firsts / Open B",
+          "datetime": "2026-01-01T08:00:00+10:00",
+          "displayTime": "8:15am, Sat, 18 Jul 26",
+          "dayLabel": "Saturday, 18 July 2026",
+          "venue": "Court 6, Court 7 (Melbourne Badminton Centre), 6-16 Joseph St, Blackburn North VIC 3130",
+          "status": "upcoming",
+          "bettingOpen": false,
+          "line": {
+            "home": -1.5
+          },
+          "result": null
+        },
+        {
+          "id": "bd-r6-trinity-yarra",
+          "homeSchoolId": "trinity",
+          "awaySchoolId": "yarra-valley",
+          "competition": "Badminton Firsts / Open B",
+          "datetime": "2026-01-01T08:00:00+10:00",
+          "displayTime": "9:50am, Sat, 18 Jul 26",
+          "dayLabel": "Saturday, 18 July 2026",
+          "venue": "Court 6, Court 7 (Melbourne Badminton Centre), 6-16 Joseph St, Blackburn North VIC 3130",
+          "status": "upcoming",
+          "bettingOpen": false,
+          "line": {
+            "home": -0.5
+          },
+          "result": null
+        }
+      ],
+      "byes": []
+    }
+  }
+}

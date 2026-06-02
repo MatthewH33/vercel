@@ -1,0 +1,889 @@
+{
+  "id": "afl",
+  "name": "AFL",
+  "label": "Australian Rules Football",
+  "currentRound": 7,
+  "bettingRound": 7,
+  "rounds": {
+    "1": {
+      "round": 1,
+      "matches": [
+        {
+          "id": "r1-trinity-mentone",
+          "homeSchoolId": "trinity",
+          "awaySchoolId": "mentone",
+          "datetime": "2026-01-01T12:00:00+10:00",
+          "displayTime": "05:00 PM, Thu, 23 Apr 26",
+          "dayLabel": "Thursday, 23 April 2026",
+          "venue": "Trinity Grammar School, Kew / Hudson Oval",
+          "status": "final",
+          "bettingOpen": false,
+          "line": null,
+          "players": null,
+          "result": {
+            "homeScore": 81,
+            "awayScore": 53,
+            "homeGoals": 11,
+            "homeBehinds": 15,
+            "awayGoals": 8,
+            "awayBehinds": 5,
+            "homeScoreDisplay": "11.15",
+            "awayScoreDisplay": "8.5",
+            "winnerId": "trinity",
+            "margin": 28,
+            "summary": "Trinity Grammar School won by 28 points"
+          }
+        },
+        {
+          "id": "r1-marcellin-peninsula",
+          "homeSchoolId": "marcellin",
+          "awaySchoolId": "peninsula",
+          "datetime": "2026-01-01T12:00:00+10:00",
+          "displayTime": "05:30 PM, Thu, 23 Apr 26",
+          "dayLabel": "Thursday, 23 April 2026",
+          "venue": "Marcellin College / Marcellin College 1",
+          "status": "final",
+          "bettingOpen": false,
+          "line": null,
+          "players": null,
+          "result": {
+            "homeScore": 69,
+            "awayScore": 49,
+            "homeGoals": 9,
+            "homeBehinds": 15,
+            "awayGoals": 7,
+            "awayBehinds": 7,
+            "homeScoreDisplay": "9.15",
+            "awayScoreDisplay": "7.7",
+            "winnerId": "marcellin",
+            "margin": 20,
+            "summary": "Marcellin College won by 20 points"
+          }
+        },
+        {
+          "id": "r1-yarra-pegs",
+          "homeSchoolId": "yarra-valley",
+          "awaySchoolId": "pegs",
+          "datetime": "2026-01-01T12:00:00+10:00",
+          "displayTime": "02:30 PM, Fri, 24 Apr 26",
+          "dayLabel": "Friday, 24 April 2026",
+          "venue": "Yarra Valley Grammar / Patterson Oval",
+          "status": "final",
+          "bettingOpen": false,
+          "line": null,
+          "players": null,
+          "result": {
+            "homeScore": 77,
+            "awayScore": 72,
+            "homeGoals": 12,
+            "homeBehinds": 5,
+            "awayGoals": 11,
+            "awayBehinds": 6,
+            "homeScoreDisplay": "12.5",
+            "awayScoreDisplay": "11.6",
+            "winnerId": "yarra-valley",
+            "margin": 5,
+            "summary": "Yarra Valley Grammar won by 5 points"
+          }
+        },
+        {
+          "id": "r1-camberwell-assumption",
+          "homeSchoolId": "camberwell",
+          "awaySchoolId": "assumption",
+          "datetime": "2026-01-01T12:00:00+10:00",
+          "displayTime": "02:30 PM, Fri, 24 Apr 26",
+          "dayLabel": "Friday, 24 April 2026",
+          "venue": "Gordon Barnard Reserve / Gordon Barnard Reserve 1",
+          "status": "final",
+          "bettingOpen": false,
+          "line": null,
+          "players": null,
+          "result": {
+            "homeScore": 44,
+            "awayScore": 53,
+            "homeGoals": 6,
+            "homeBehinds": 8,
+            "awayGoals": 8,
+            "awayBehinds": 5,
+            "homeScoreDisplay": "6.8",
+            "awayScoreDisplay": "8.5",
+            "winnerId": "assumption",
+            "margin": 9,
+            "summary": "Assumption College won by 9 points"
+          }
+        }
+      ],
+      "byes": [
+        {
+          "schoolId": "ivanhoe",
+          "round": 1,
+          "dayLabel": "Friday, 24 April 2026"
+        }
+      ]
+    },
+    "2": {
+      "round": 2,
+      "matches": [
+        {
+          "id": "r2-peninsula-yarra",
+          "homeSchoolId": "peninsula",
+          "awaySchoolId": "yarra-valley",
+          "datetime": "2026-01-01T12:00:00+10:00",
+          "displayTime": "02:30 PM, Fri, 01 May 26",
+          "dayLabel": "Friday, 01 May 2026",
+          "venue": "Harry MacDonald Oval / Harry MacDonald Oval 1",
+          "status": "final",
+          "bettingOpen": false,
+          "line": null,
+          "players": null,
+          "result": {
+            "homeScore": 78,
+            "awayScore": 60,
+            "homeGoals": 12,
+            "homeBehinds": 6,
+            "awayGoals": 8,
+            "awayBehinds": 12,
+            "homeScoreDisplay": "12.6",
+            "awayScoreDisplay": "8.12",
+            "winnerId": "peninsula",
+            "margin": 18,
+            "summary": "Peninsula Grammar won by 18 points"
+          }
+        },
+        {
+          "id": "r2-pegs-camberwell",
+          "homeSchoolId": "pegs",
+          "awaySchoolId": "camberwell",
+          "datetime": "2026-01-01T12:00:00+10:00",
+          "displayTime": "02:30 PM, Fri, 01 May 26",
+          "dayLabel": "Friday, 01 May 2026",
+          "venue": "Penleigh & Essendon Grammar School – Campus / Shann Oval",
+          "status": "final",
+          "bettingOpen": false,
+          "line": null,
+          "players": null,
+          "result": {
+            "homeScore": 110,
+            "awayScore": 54,
+            "homeGoals": 17,
+            "homeBehinds": 8,
+            "awayGoals": 7,
+            "awayBehinds": 12,
+            "homeScoreDisplay": "17.8",
+            "awayScoreDisplay": "7.12",
+            "winnerId": "pegs",
+            "margin": 56,
+            "summary": "Penleigh & Essendon Grammar School (PEGS) won by 56 points"
+          }
+        },
+        {
+          "id": "r2-ivanhoe-marcellin",
+          "homeSchoolId": "ivanhoe",
+          "awaySchoolId": "marcellin",
+          "datetime": "2026-01-01T12:00:00+10:00",
+          "displayTime": "02:30 PM, Fri, 01 May 26",
+          "dayLabel": "Friday, 01 May 2026",
+          "venue": "Chelsworth Park / Chelsworth Park 1",
+          "status": "final",
+          "bettingOpen": false,
+          "line": null,
+          "players": null,
+          "result": {
+            "homeScore": 62,
+            "awayScore": 44,
+            "homeGoals": 9,
+            "homeBehinds": 8,
+            "awayGoals": 6,
+            "awayBehinds": 8,
+            "homeScoreDisplay": "9.8",
+            "awayScoreDisplay": "6.8",
+            "winnerId": "ivanhoe",
+            "margin": 18,
+            "summary": "Ivanhoe Grammar School won by 18 points"
+          }
+        },
+        {
+          "id": "r2-assumption-trinity",
+          "homeSchoolId": "assumption",
+          "awaySchoolId": "trinity",
+          "datetime": "2026-01-01T12:00:00+10:00",
+          "displayTime": "10:00 AM, Sat, 02 May 26",
+          "dayLabel": "Saturday, 02 May 2026",
+          "venue": "Assumption College / Carroll Oval",
+          "status": "final",
+          "bettingOpen": false,
+          "line": null,
+          "players": null,
+          "result": {
+            "homeScore": 50,
+            "awayScore": 80,
+            "homeGoals": 7,
+            "homeBehinds": 8,
+            "awayGoals": 11,
+            "awayBehinds": 14,
+            "homeScoreDisplay": "7.8",
+            "awayScoreDisplay": "11.14",
+            "winnerId": "trinity",
+            "margin": 30,
+            "summary": "Trinity Grammar School won by 30 points"
+          }
+        }
+      ],
+      "byes": [
+        {
+          "schoolId": "mentone",
+          "round": 2,
+          "dayLabel": "Saturday, 02 May 2026"
+        }
+      ]
+    },
+    "3": {
+      "round": 3,
+      "matches": [
+        {
+          "id": "r3-camberwell-peninsula",
+          "homeSchoolId": "camberwell",
+          "awaySchoolId": "peninsula",
+          "datetime": "2026-01-01T12:00:00+10:00",
+          "displayTime": "02:30 PM, Fri, 08 May 26",
+          "dayLabel": "Friday, 08 May 2026",
+          "venue": "Gordon Barnard Reserve / Gordon Barnard Reserve 1",
+          "status": "final",
+          "bettingOpen": false,
+          "line": null,
+          "players": null,
+          "result": {
+            "homeScore": 80,
+            "awayScore": 58,
+            "homeGoals": 12,
+            "homeBehinds": 8,
+            "awayGoals": 8,
+            "awayBehinds": 10,
+            "homeScoreDisplay": "12.8",
+            "awayScoreDisplay": "8.10",
+            "winnerId": "camberwell",
+            "margin": 22,
+            "summary": "Camberwell Grammar School won by 22 points"
+          }
+        },
+        {
+          "id": "r3-trinity-pegs",
+          "homeSchoolId": "trinity",
+          "awaySchoolId": "pegs",
+          "datetime": "2026-01-01T12:00:00+10:00",
+          "displayTime": "05:00 PM, Fri, 08 May 26",
+          "dayLabel": "Friday, 08 May 2026",
+          "venue": "Trinity Grammar School, Kew / Hudson Oval",
+          "status": "final",
+          "bettingOpen": false,
+          "line": null,
+          "players": null,
+          "result": {
+            "homeScore": 89,
+            "awayScore": 53,
+            "homeGoals": 13,
+            "homeBehinds": 11,
+            "awayGoals": 8,
+            "awayBehinds": 5,
+            "homeScoreDisplay": "13.11",
+            "awayScoreDisplay": "8.5",
+            "winnerId": "trinity",
+            "margin": 36,
+            "summary": "Trinity Grammar School won by 36 points"
+          }
+        },
+        {
+          "id": "r3-mentone-assumption",
+          "homeSchoolId": "mentone",
+          "awaySchoolId": "assumption",
+          "datetime": "2026-01-01T12:00:00+10:00",
+          "displayTime": "06:00 PM, Fri, 08 May 26",
+          "dayLabel": "Friday, 08 May 2026",
+          "venue": "Mentone Grammar School Keysborough Playing Fields / Mentone Grammar School Keysborough 1",
+          "status": "final",
+          "bettingOpen": false,
+          "line": null,
+          "players": null,
+          "result": {
+            "homeScore": 46,
+            "awayScore": 64,
+            "homeGoals": 7,
+            "homeBehinds": 4,
+            "awayGoals": 8,
+            "awayBehinds": 16,
+            "homeScoreDisplay": "7.4",
+            "awayScoreDisplay": "8.16",
+            "winnerId": "assumption",
+            "margin": 18,
+            "summary": "Assumption College won by 18 points"
+          }
+        },
+        {
+          "id": "r3-yarra-ivanhoe",
+          "homeSchoolId": "yarra-valley",
+          "awaySchoolId": "ivanhoe",
+          "datetime": "2026-01-01T12:00:00+10:00",
+          "displayTime": "10:30 AM, Sat, 09 May 26",
+          "dayLabel": "Saturday, 09 May 2026",
+          "venue": "Yarra Valley Grammar / Patterson Oval",
+          "status": "final",
+          "bettingOpen": false,
+          "line": null,
+          "players": null,
+          "result": {
+            "homeScore": 57,
+            "awayScore": 50,
+            "homeGoals": 8,
+            "homeBehinds": 9,
+            "awayGoals": 7,
+            "awayBehinds": 8,
+            "homeScoreDisplay": "8.9",
+            "awayScoreDisplay": "7.8",
+            "winnerId": "yarra-valley",
+            "margin": 7,
+            "summary": "Yarra Valley Grammar won by 7 points"
+          }
+        }
+      ],
+      "byes": [
+        {
+          "schoolId": "marcellin",
+          "round": 3,
+          "dayLabel": "Saturday, 09 May 2026"
+        }
+      ]
+    },
+    "4": {
+      "round": 4,
+      "matches": [
+        {
+          "id": "r4-pegs-mentone",
+          "homeSchoolId": "pegs",
+          "awaySchoolId": "mentone",
+          "datetime": "2026-01-01T12:00:00+10:00",
+          "displayTime": "02:30 PM, Fri, 15 May 26",
+          "dayLabel": "Friday, 15 May 2026",
+          "venue": "Penleigh & Essendon Grammar School – Campus / Shann Oval",
+          "status": "in_progress",
+          "bettingOpen": false,
+          "line": null,
+          "players": null,
+          "result": {
+            "homeScore": 85,
+            "awayScore": 54,
+            "homeGoals": 12,
+            "homeBehinds": 13,
+            "awayGoals": 7,
+            "awayBehinds": 12,
+            "homeScoreDisplay": "12.13",
+            "awayScoreDisplay": "7.12",
+            "winnerId": null,
+            "margin": 31,
+            "summary": "In Progress"
+          }
+        },
+        {
+          "id": "r4-ivanhoe-camberwell",
+          "homeSchoolId": "ivanhoe",
+          "awaySchoolId": "camberwell",
+          "datetime": "2026-01-01T12:00:00+10:00",
+          "displayTime": "02:30 PM, Fri, 15 May 26",
+          "dayLabel": "Friday, 15 May 2026",
+          "venue": "Chelsworth Park / Chelsworth Park 1",
+          "status": "final",
+          "bettingOpen": false,
+          "line": null,
+          "players": null,
+          "result": {
+            "homeScore": 94,
+            "awayScore": 40,
+            "homeGoals": 14,
+            "homeBehinds": 10,
+            "awayGoals": 6,
+            "awayBehinds": 4,
+            "homeScoreDisplay": "14.10",
+            "awayScoreDisplay": "6.4",
+            "winnerId": "ivanhoe",
+            "margin": 54,
+            "summary": "Ivanhoe Grammar School won by 54 points"
+          }
+        },
+        {
+          "id": "r4-marcellin-yarra",
+          "homeSchoolId": "marcellin",
+          "awaySchoolId": "yarra-valley",
+          "datetime": "2026-01-01T12:00:00+10:00",
+          "displayTime": "05:00 PM, Fri, 15 May 26",
+          "dayLabel": "Friday, 15 May 2026",
+          "venue": "Marcellin College / Marcellin College 1",
+          "status": "final",
+          "bettingOpen": false,
+          "line": null,
+          "players": null,
+          "result": {
+            "homeScore": 58,
+            "awayScore": 36,
+            "homeGoals": 8,
+            "homeBehinds": 10,
+            "awayGoals": 5,
+            "awayBehinds": 6,
+            "homeScoreDisplay": "8.10",
+            "awayScoreDisplay": "5.6",
+            "winnerId": "marcellin",
+            "margin": 22,
+            "summary": "Marcellin College won by 22 points"
+          }
+        },
+        {
+          "id": "r4-peninsula-trinity",
+          "homeSchoolId": "peninsula",
+          "awaySchoolId": "trinity",
+          "datetime": "2026-01-01T12:00:00+10:00",
+          "displayTime": "10:30 AM, Sat, 16 May 26",
+          "dayLabel": "Saturday, 16 May 2026",
+          "venue": "Harry MacDonald Oval / Harry MacDonald Oval 1",
+          "status": "final",
+          "bettingOpen": false,
+          "line": null,
+          "players": null,
+          "result": {
+            "homeScore": 51,
+            "awayScore": 51,
+            "homeGoals": 6,
+            "homeBehinds": 15,
+            "awayGoals": 7,
+            "awayBehinds": 9,
+            "homeScoreDisplay": "6.15",
+            "awayScoreDisplay": "7.9",
+            "winnerId": null,
+            "margin": 0,
+            "summary": "Draw"
+          }
+        }
+      ],
+      "byes": [
+        {
+          "schoolId": "assumption",
+          "round": 4,
+          "dayLabel": "Saturday, 16 May 2026"
+        }
+      ]
+    },
+    "5": {
+      "round": 5,
+      "matches": [
+        {
+          "id": "r5-trinity-ivanhoe",
+          "homeSchoolId": "trinity",
+          "awaySchoolId": "ivanhoe",
+          "datetime": "2026-01-01T12:00:00+10:00",
+          "displayTime": "05:00 PM, Fri, 22 May 26",
+          "dayLabel": "Friday, 22 May 2026",
+          "venue": "Trinity Grammar School, Kew / Hudson Oval",
+          "status": "final",
+          "bettingOpen": false,
+          "line": null,
+          "players": null,
+          "result": {
+            "homeScore": 50,
+            "awayScore": 49,
+            "homeGoals": 7,
+            "homeBehinds": 8,
+            "awayGoals": 7,
+            "awayBehinds": 7,
+            "homeScoreDisplay": "7.8",
+            "awayScoreDisplay": "7.7",
+            "winnerId": "trinity",
+            "margin": 1,
+            "summary": "Trinity Grammar School won by 1 point"
+          }
+        },
+        {
+          "id": "r5-mentone-peninsula",
+          "homeSchoolId": "mentone",
+          "awaySchoolId": "peninsula",
+          "datetime": "2026-01-01T12:00:00+10:00",
+          "displayTime": "05:00 PM, Fri, 22 May 26",
+          "dayLabel": "Friday, 22 May 2026",
+          "venue": "Mentone Grammar School Keysborough Playing Fields / Mentone Grammar School Keysborough 2",
+          "status": "final",
+          "bettingOpen": false,
+          "line": null,
+          "players": null,
+          "result": {
+            "homeScore": 70,
+            "awayScore": 73,
+            "homeGoals": 10,
+            "homeBehinds": 10,
+            "awayGoals": 11,
+            "awayBehinds": 7,
+            "homeScoreDisplay": "10.10",
+            "awayScoreDisplay": "11.7",
+            "winnerId": "peninsula",
+            "margin": 3,
+            "summary": "Peninsula Grammar won by 3 points"
+          }
+        },
+        {
+          "id": "r5-assumption-pegs",
+          "homeSchoolId": "assumption",
+          "awaySchoolId": "pegs",
+          "datetime": "2026-01-01T12:00:00+10:00",
+          "displayTime": "10:00 AM, Sat, 23 May 26",
+          "dayLabel": "Saturday, 23 May 2026",
+          "venue": "Assumption College / Carroll Oval",
+          "status": "final",
+          "bettingOpen": false,
+          "line": null,
+          "players": null,
+          "result": {
+            "homeScore": 70,
+            "awayScore": 34,
+            "homeGoals": 9,
+            "homeBehinds": 16,
+            "awayGoals": 4,
+            "awayBehinds": 10,
+            "homeScoreDisplay": "9.16",
+            "awayScoreDisplay": "4.10",
+            "winnerId": "assumption",
+            "margin": 36,
+            "summary": "Assumption College won by 36 points"
+          }
+        },
+        {
+          "id": "r5-camberwell-marcellin",
+          "homeSchoolId": "camberwell",
+          "awaySchoolId": "marcellin",
+          "datetime": "2026-01-01T12:00:00+10:00",
+          "displayTime": "10:00 AM, Sat, 23 May 26",
+          "dayLabel": "Saturday, 23 May 2026",
+          "venue": "Gordon Barnard Reserve / Gordon Barnard Reserve 1",
+          "status": "final",
+          "bettingOpen": false,
+          "line": null,
+          "players": null,
+          "result": {
+            "homeScore": 21,
+            "awayScore": 103,
+            "homeGoals": 3,
+            "homeBehinds": 3,
+            "awayGoals": 15,
+            "awayBehinds": 13,
+            "homeScoreDisplay": "3.3",
+            "awayScoreDisplay": "15.13",
+            "winnerId": "marcellin",
+            "margin": 82,
+            "summary": "Marcellin College won by 82 points"
+          }
+        }
+      ],
+      "byes": [
+        {
+          "schoolId": "yarra-valley",
+          "round": 5,
+          "dayLabel": "Saturday, 23 May 2026"
+        }
+      ]
+    },
+    "6": {
+      "round": 6,
+      "matches": [
+        {
+          "id": "r6-ivanhoe-mentone",
+          "homeSchoolId": "ivanhoe",
+          "awaySchoolId": "mentone",
+          "datetime": "2026-01-01T12:00:00+10:00",
+          "displayTime": "02:30 PM, Fri, 29 May 26",
+          "dayLabel": "Friday, 29 May 2026",
+          "venue": "Chelsworth Park / Chelsworth Park 1",
+          "status": "in_progress",
+          "bettingOpen": false,
+          "line": null,
+          "players": null,
+          "result": {
+            "homeScore": 0,
+            "awayScore": 0,
+            "homeGoals": 0,
+            "homeBehinds": 0,
+            "awayGoals": 0,
+            "awayBehinds": 0,
+            "homeScoreDisplay": "0.0",
+            "awayScoreDisplay": "0.0",
+            "winnerId": null,
+            "margin": 0,
+            "summary": "In Progress"
+          }
+        },
+        {
+          "id": "r6-marcellin-trinity",
+          "homeSchoolId": "marcellin",
+          "awaySchoolId": "trinity",
+          "datetime": "2026-01-01T12:00:00+10:00",
+          "displayTime": "05:00 PM, Fri, 29 May 26",
+          "dayLabel": "Friday, 29 May 2026",
+          "venue": "Marcellin College / Marcellin College 1",
+          "status": "final",
+          "bettingOpen": false,
+          "line": null,
+          "players": null,
+          "result": {
+            "homeScore": 67,
+            "awayScore": 63,
+            "homeGoals": 10,
+            "homeBehinds": 7,
+            "awayGoals": 9,
+            "awayBehinds": 9,
+            "homeScoreDisplay": "10.7",
+            "awayScoreDisplay": "9.9",
+            "winnerId": "marcellin",
+            "margin": 4,
+            "summary": "Marcellin College won by 4 points"
+          }
+        },
+        {
+          "id": "r6-yarra-camberwell",
+          "homeSchoolId": "yarra-valley",
+          "awaySchoolId": "camberwell",
+          "datetime": "2026-01-01T12:00:00+10:00",
+          "displayTime": "10:30 AM, Sat, 30 May 26",
+          "dayLabel": "Saturday, 30 May 2026",
+          "venue": "Yarra Valley Grammar / Patterson Oval",
+          "status": "final",
+          "bettingOpen": false,
+          "line": null,
+          "players": null,
+          "result": {
+            "homeScore": 64,
+            "awayScore": 64,
+            "homeGoals": 9,
+            "homeBehinds": 10,
+            "awayGoals": 9,
+            "awayBehinds": 10,
+            "homeScoreDisplay": "9.10",
+            "awayScoreDisplay": "9.10",
+            "winnerId": null,
+            "margin": 0,
+            "summary": "Draw"
+          }
+        },
+        {
+          "id": "r6-peninsula-assumption",
+          "homeSchoolId": "peninsula",
+          "awaySchoolId": "assumption",
+          "datetime": "2026-01-01T12:00:00+10:00",
+          "displayTime": "10:30 AM, Sat, 30 May 26",
+          "dayLabel": "Saturday, 30 May 2026",
+          "venue": "Harry MacDonald Oval / Harry MacDonald Oval 1",
+          "status": "final",
+          "bettingOpen": false,
+          "line": null,
+          "players": null,
+          "result": {
+            "homeScore": 90,
+            "awayScore": 66,
+            "homeGoals": 13,
+            "homeBehinds": 12,
+            "awayGoals": 9,
+            "awayBehinds": 12,
+            "homeScoreDisplay": "13.12",
+            "awayScoreDisplay": "9.12",
+            "winnerId": "peninsula",
+            "margin": 24,
+            "summary": "Peninsula Grammar won by 24 points"
+          }
+        }
+      ],
+      "byes": [
+        {
+          "schoolId": "pegs",
+          "round": 6,
+          "dayLabel": "Saturday, 30 May 2026"
+        }
+      ]
+    },
+    "7": {
+      "round": 7,
+      "matches": [
+        {
+          "id": "r7-mentone-marcellin",
+          "homeSchoolId": "mentone",
+          "awaySchoolId": "marcellin",
+          "datetime": "2026-06-12T17:00:00+10:00",
+          "displayTime": "05:00 PM, Fri, 12 Jun 26",
+          "dayLabel": "Friday, 12 June 2026",
+          "venue": "Mentone Grammar School Keysborough Playing Fields / Mentone Grammar School Keysborough 2",
+          "status": "final",
+          "bettingOpen": false,
+          "line": {
+            "home": -8.5
+          },
+          "players": {
+            "mentone": [
+              "J. Walsh",
+              "T. Brooks",
+              "L. Chen",
+              "M. O'Brien",
+              "H. Singh"
+            ],
+            "marcellin": [
+              "C. Rossi",
+              "D. Nguyen",
+              "B. Taylor",
+              "A. Patel",
+              "F. Murphy"
+            ]
+          },
+          "result": {
+            "homeScore": 12,
+            "awayScore": 5,
+            "winnerId": "mentone",
+            "margin": 7,
+            "firstGoalSchoolId": "mentone",
+            "quarters": [
+              {
+                "quarter": 1,
+                "winnerId": "marcellin"
+              },
+              {
+                "quarter": 2,
+                "winnerId": "mentone"
+              },
+              {
+                "quarter": 3,
+                "winnerId": "mentone"
+              },
+              {
+                "quarter": 4,
+                "winnerId": "mentone"
+              }
+            ]
+          }
+        },
+        {
+          "id": "r7-trinity-yarra",
+          "homeSchoolId": "trinity",
+          "awaySchoolId": "yarra-valley",
+          "datetime": "2026-06-12T17:00:00+10:00",
+          "displayTime": "05:00 PM, Fri, 12 Jun 26",
+          "dayLabel": "Friday, 12 June 2026",
+          "venue": "Trinity Grammar School, Kew / Hudson Oval",
+          "status": "upcoming",
+          "bettingOpen": true,
+          "line": {
+            "home": -5.5
+          },
+          "players": {
+            "trinity": [
+              "E. Harrison",
+              "G. Wilson",
+              "N. Costa",
+              "P. Zhang",
+              "R. Adams"
+            ],
+            "yarra-valley": [
+              "S. Martin",
+              "K. Lee",
+              "V. Brown",
+              "W. Davis",
+              "Z. Kim"
+            ]
+          },
+          "result": null
+        },
+        {
+          "id": "r7-assumption-ivanhoe",
+          "homeSchoolId": "assumption",
+          "awaySchoolId": "ivanhoe",
+          "datetime": "2026-06-13T10:00:00+10:00",
+          "displayTime": "10:00 AM, Sat, 13 Jun 26",
+          "dayLabel": "Saturday, 13 June 2026",
+          "venue": "Assumption College / Carroll Oval",
+          "status": "final",
+          "bettingOpen": false,
+          "line": {
+            "home": -3.5
+          },
+          "players": {
+            "assumption": [
+              "O. Clarke",
+              "Q. Wright",
+              "U. Hall",
+              "X. Green",
+              "Y. Stone"
+            ],
+            "ivanhoe": [
+              "I. Foster",
+              "J. Reed",
+              "K. Bell",
+              "L. Cook",
+              "M. Gray"
+            ]
+          },
+          "result": {
+            "homeScore": 4,
+            "awayScore": 1,
+            "winnerId": "assumption",
+            "margin": 3,
+            "firstGoalSchoolId": "assumption",
+            "quarters": [
+              {
+                "quarter": 1,
+                "winnerId": "assumption"
+              },
+              {
+                "quarter": 2,
+                "winnerId": "assumption"
+              },
+              {
+                "quarter": 3,
+                "winnerId": "ivanhoe"
+              },
+              {
+                "quarter": 4,
+                "winnerId": "ivanhoe"
+              }
+            ]
+          }
+        },
+        {
+          "id": "r7-pegs-peninsula",
+          "homeSchoolId": "pegs",
+          "awaySchoolId": "peninsula",
+          "datetime": "2026-06-13T10:30:00+10:00",
+          "displayTime": "10:30 AM, Sat, 13 Jun 26",
+          "dayLabel": "Saturday, 13 June 2026",
+          "venue": "Penleigh & Essendon Grammar School – Campus / Shann Oval",
+          "status": "upcoming",
+          "bettingOpen": true,
+          "line": {
+            "home": -10.5
+          },
+          "players": {
+            "pegs": [
+              "A. Scott",
+              "B. Young",
+              "C. King",
+              "D. Moore",
+              "E. Price"
+            ],
+            "peninsula": [
+              "F. Ward",
+              "G. Hunt",
+              "H. Lane",
+              "I. Nash",
+              "J. Pike"
+            ]
+          },
+          "result": null
+        }
+      ],
+      "byes": [
+        {
+          "schoolId": "camberwell",
+          "round": 7,
+          "dayLabel": "Saturday, 13 June 2026"
+        }
+      ]
+    }
+  }
+}

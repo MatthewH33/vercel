@@ -1,0 +1,11 @@
+[
+  { "id": "assumption", "name": "Assumption College", "logo": "Assumption.svg" },
+  { "id": "camberwell", "name": "Camberwell Grammar School", "logo": "Camberwell.svg" },
+  { "id": "ivanhoe", "name": "Ivanhoe Grammar School", "logo": "Ivanhoe.svg" },
+  { "id": "marcellin", "name": "Marcellin College", "logo": "Marcellin.svg" },
+  { "id": "mentone", "name": "Mentone Grammar", "logo": "Mentone.svg" },
+  { "id": "peninsula", "name": "Peninsula Grammar", "logo": "Peninsula.svg" },
+  { "id": "pegs", "name": "Penleigh & Essendon Grammar School (PEGS)", "logo": "Pegs.svg" },
+  { "id": "trinity", "name": "Trinity Grammar School", "logo": "Trinity.png" },
+  { "id": "yarra-valley", "name": "Yarra Valley Grammar", "logo": "Yarra.svg" }
+]

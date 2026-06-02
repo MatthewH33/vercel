@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#0a0a0a" />
+  <title>AGSV Fantasy — Back your school</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-circle" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a href="/" class="brand">AGSV Fantasy</a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="/">Home</a>
+      <a href="/markets.html">Markets</a>
+      <a href="/leaderboard.html">Leaderboard</a>
+      <a href="/profile.html">Profile</a>
+      <a href="/admin.html" id="nav-admin" hidden>Admin</a>
+    </nav>
+    <div class="header-auth">
+      <div id="user-pill" class="user-pill" hidden></div>
+      <div class="credits-pill" id="credits-pill" hidden title="Play-money balance">
+        <span class="credits-label">Balance</span>
+        <span class="credits-value" id="credits-display">1,000</span>
+        <span class="credits-unit">credits</span>
+      </div>
+      <div id="auth-actions" class="auth-actions">
+        <a href="/signin.html" class="btn btn-ghost btn-sm">Sign in</a>
+        <a href="/register.html" class="btn btn-ghost btn-sm">Register</a>
+      </div>
+      <a href="#" id="logout-btn" class="btn btn-ghost btn-sm" hidden role="button">Sign out</a>
+    </div>
+  </header>
+
+  <main class="hero">
+    <h1 class="hero-title">
+      <span>Back your school.</span>
+      <span>Stack your credits.</span>
+    </h1>
+    <p class="hero-subtitle">
+      Live betting markets on every AGSV fixture. Footy, soccer, cricket, basketball and more.
+      Start with <strong>1,000 credits</strong>. Place bets, track results, climb the leaderboard.
+    </p>
+    <div class="hero-actions">
+      <a href="/markets.html" class="btn btn-primary">Round 7 markets</a>
+      <a href="/register.html" class="btn btn-ghost hero-guest-only">Create account</a>
+    </div>
+    <p class="hero-disclaimer">Play money only. No real wagering.</p>
+  </main>
+
+  <footer class="logo-strip" aria-label="AGSV member schools"></footer>
+
+  <script type="module" src="/app.js"></script>
+</body>
+</html>
