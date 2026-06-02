@@ -1,4 +1,4 @@
-import { initHeader, fetchCurrentUser, loadSchools, escapeHtml } from "./js/auth.js";
+import { initHeader, fetchCurrentUser, loadSchools, escapeHtml } from "./auth.js";
 
 async function renderLogoStrip() {
   const strip = document.querySelector(".logo-strip");
@@ -26,7 +26,7 @@ async function initHome() {
     `;
     document.getElementById("home-logout")?.addEventListener("click", async (e) => {
       e.preventDefault();
-      const { api } = await import("./js/auth.js");
+      const { api } = await import("./auth.js");
       await api("/api/logout", { method: "POST" }).catch(() => {});
       window.location.reload();
     });

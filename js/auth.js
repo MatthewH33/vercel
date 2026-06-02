@@ -200,7 +200,9 @@ async function handleLogout(e) {
   window.location.href = "/";
 }
 
-document.getElementById("logout-btn")?.addEventListener("click", handleLogout);
+if (typeof document !== "undefined") {
+  document.getElementById("logout-btn")?.addEventListener("click", handleLogout);
+}
 
 export {
   api,
